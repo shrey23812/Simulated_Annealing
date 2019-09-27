@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+		
+		<style>
+		
+			
+		</style>
+		<script src="math.min.js" type="text/javascript"></script>
+		
+
+	</head>
+
+	<body>
+
+		<div id = divCanvas > 
+			<canvas id="canvas" style="border: 2px solid #000000;" width="850px" height="450px"></canvas>
+		</div>
+
+		<div >
+		<br>
+		Function to minimize 
+			<select id="objectiveFunction">
+				<option value="Rosenbrock">Rosenbrock Funnction </option>
+				<option value="Booth">Booth's Function</option>
+				<option value="Three-hump camel function">Three-hump camel function</option>
+				
+			</select>
+			<input type="button"  value="Check Output" onclick="annealing()"/>
+			<input type="button"  value="Refresh" onclick="refresh()"/>
+		</div>
+		<div id="div1">
+
+		</div>
+		<script src="SimulatedAnnealing.js" type="text/javascript"></script>
+
+		
+</body>
+</html>
